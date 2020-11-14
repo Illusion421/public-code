@@ -186,6 +186,7 @@ def snake_dies():
     ek.color("white" , "grey")
     time.sleep(1)
     ek.color("white" , "#0066ff")
+    wn.tracer(0)
     ek.goto(0 , 0)
 
 segments = []
